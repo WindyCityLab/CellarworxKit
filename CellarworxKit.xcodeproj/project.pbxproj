@@ -7,13 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19E201F51D034D810082E477 /* CellarworxKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E201F41D034D810082E477 /* CellarworxKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19E202011D034EB40082E477 /* CellarworxKit-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E202001D034EB40082E477 /* CellarworxKit-Bridging-Header.h */; };
+		19E202BA1D0357260082E477 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2027F1D0357250082E477 /* User.swift */; };
+		19E202BB1D0357260082E477 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202801D0357250082E477 /* Client.swift */; };
+		19E202BC1D0357260082E477 /* Client_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202811D0357250082E477 /* Client_Extensions.swift */; };
+		19E202BD1D0357260082E477 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202821D0357250082E477 /* Reservation.swift */; };
+		19E202BE1D0357260082E477 /* Wo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202831D0357250082E477 /* Wo.swift */; };
+		19E202BF1D0357260082E477 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202841D0357250082E477 /* Actions.swift */; };
+		19E202C01D0357260082E477 /* Additiondata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202851D0357250082E477 /* Additiondata.swift */; };
+		19E202C11D0357260082E477 /* Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202861D0357250082E477 /* Additions.swift */; };
+		19E202C21D0357260082E477 /* Appellations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202871D0357250082E477 /* Appellations.swift */; };
+		19E202C31D0357260082E477 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202881D0357250082E477 /* Assets.swift */; };
+		19E202C41D0357260082E477 /* Assettypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202891D0357250082E477 /* Assettypes.swift */; };
+		19E202C51D0357260082E477 /* Badges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2028A1D0357250082E477 /* Badges.swift */; };
+		19E202C61D0357260082E477 /* Barrelhistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2028B1D0357250082E477 /* Barrelhistory.swift */; };
+		19E202C71D0357260082E477 /* Barrels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2028C1D0357250082E477 /* Barrels.swift */; };
+		19E202C81D0357260082E477 /* Bindetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2028D1D0357250082E477 /* Bindetail.swift */; };
+		19E202C91D0357260082E477 /* Blend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2028E1D0357250082E477 /* Blend.swift */; };
+		19E202CA1D0357260082E477 /* Blenditems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2028F1D0357250082E477 /* Blenditems.swift */; };
+		19E202CB1D0357260082E477 /* Bol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202901D0357250082E477 /* Bol.swift */; };
+		19E202CC1D0357260082E477 /* Bolitembreakout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202911D0357250082E477 /* Bolitembreakout.swift */; };
+		19E202CD1D0357260082E477 /* Bolitems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202921D0357250082E477 /* Bolitems.swift */; };
+		19E202CE1D0357260082E477 /* Bottling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202931D0357250082E477 /* Bottling.swift */; };
+		19E202CF1D0357260082E477 /* Brixtemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202941D0357250082E477 /* Brixtemp.swift */; };
+		19E202D01D0357260082E477 /* Buffertitration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202951D0357250082E477 /* Buffertitration.swift */; };
+		19E202D11D0357260082E477 /* CompanyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202961D0357250082E477 /* CompanyInfo.swift */; };
+		19E202D21D0357260082E477 /* DevTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202971D0357250082E477 /* DevTokens.swift */; };
+		19E202D31D0357260082E477 /* Fermprot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202981D0357250082E477 /* Fermprot.swift */; };
+		19E202D41D0357260082E477 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202991D0357250082E477 /* Files.swift */; };
+		19E202D51D0357260082E477 /* Filllevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2029A1D0357250082E477 /* Filllevels.swift */; };
+		19E202D61D0357260082E477 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2029B1D0357250082E477 /* Flags.swift */; };
+		19E202D71D0357260082E477 /* Fpaddmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2029C1D0357250082E477 /* Fpaddmap.swift */; };
+		19E202D81D0357260082E477 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2029D1D0357250082E477 /* Groups.swift */; };
+		19E202D91D0357260082E477 /* Labresults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2029E1D0357250082E477 /* Labresults.swift */; };
+		19E202DA1D0357260082E477 /* Labtest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2029F1D0357250082E477 /* Labtest.swift */; };
+		19E202DB1D0357260082E477 /* Labtestcosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202A01D0357250082E477 /* Labtestcosts.swift */; };
+		19E202DC1D0357260082E477 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202A11D0357250082E477 /* Locations.swift */; };
+		19E202DD1D0357260082E477 /* Lotfavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202A21D0357250082E477 /* Lotfavorites.swift */; };
+		19E202DE1D0357260082E477 /* Lotlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202A31D0357250082E477 /* Lotlist.swift */; };
+		19E202DF1D0357260082E477 /* Lots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202A41D0357250082E477 /* Lots.swift */; };
+		19E202E01D0357260082E477 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202A51D0357250082E477 /* Messages.swift */; };
+		19E202E11D0357260082E477 /* Newwos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202A61D0357250082E477 /* Newwos.swift */; };
+		19E202E21D0357260082E477 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202A71D0357250082E477 /* Notes.swift */; };
+		19E202E31D0357260082E477 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202A81D0357250082E477 /* Orders.swift */; };
+		19E202E41D0357260082E477 /* Packages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202A91D0357250082E477 /* Packages.swift */; };
+		19E202E51D0357260082E477 /* Pressprogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202AA1D0357250082E477 /* Pressprogram.swift */; };
+		19E202E61D0357260082E477 /* PressRoomActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202AB1D0357260082E477 /* PressRoomActivities.swift */; };
+		19E202E71D0357260082E477 /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202AC1D0357260082E477 /* Program.swift */; };
+		19E202E81D0357260082E477 /* PushDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202AD1D0357260082E477 /* PushDevices.swift */; };
+		19E202E91D0357260082E477 /* Roles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202AE1D0357260082E477 /* Roles.swift */; };
+		19E202EA1D0357260082E477 /* Scp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202AF1D0357260082E477 /* Scp.swift */; };
+		19E202EB1D0357260082E477 /* SortingTableActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202B01D0357260082E477 /* SortingTableActivities.swift */; };
+		19E202EC1D0357260082E477 /* Surveyanswers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202B11D0357260082E477 /* Surveyanswers.swift */; };
+		19E202ED1D0357260082E477 /* Surveyquestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202B21D0357260082E477 /* Surveyquestions.swift */; };
+		19E202EE1D0357260082E477 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202B31D0357260082E477 /* Tasks.swift */; };
+		19E202EF1D0357260082E477 /* Usermessagemap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202B41D0357260082E477 /* Usermessagemap.swift */; };
+		19E202F01D0357260082E477 /* Validlabtests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202B51D0357260082E477 /* Validlabtests.swift */; };
+		19E202F11D0357260082E477 /* Varietals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202B61D0357260082E477 /* Varietals.swift */; };
+		19E202F21D0357260082E477 /* Vessels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202B71D0357260082E477 /* Vessels.swift */; };
+		19E202F31D0357260082E477 /* Wt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202B81D0357260082E477 /* Wt.swift */; };
+		19E202F41D0357260082E477 /* Zones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E202B91D0357260082E477 /* Zones.swift */; };
+		201DBCCF4A33DA5FD1FEB773 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8061595B57E7BB4CFB34ED4C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		19E201F11D034D810082E477 /* CellarworxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CellarworxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19E201F41D034D810082E477 /* CellarworxKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellarworxKit.h; sourceTree = "<group>"; };
 		19E201F61D034D810082E477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E202001D034EB40082E477 /* CellarworxKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CellarworxKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		19E2027F1D0357250082E477 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		19E202801D0357250082E477 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		19E202811D0357250082E477 /* Client_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client_Extensions.swift; sourceTree = "<group>"; };
+		19E202821D0357250082E477 /* Reservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		19E202831D0357250082E477 /* Wo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wo.swift; sourceTree = "<group>"; };
+		19E202841D0357250082E477 /* Actions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		19E202851D0357250082E477 /* Additiondata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Additiondata.swift; sourceTree = "<group>"; };
+		19E202861D0357250082E477 /* Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Additions.swift; sourceTree = "<group>"; };
+		19E202871D0357250082E477 /* Appellations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appellations.swift; sourceTree = "<group>"; };
+		19E202881D0357250082E477 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		19E202891D0357250082E477 /* Assettypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assettypes.swift; sourceTree = "<group>"; };
+		19E2028A1D0357250082E477 /* Badges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badges.swift; sourceTree = "<group>"; };
+		19E2028B1D0357250082E477 /* Barrelhistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Barrelhistory.swift; sourceTree = "<group>"; };
+		19E2028C1D0357250082E477 /* Barrels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Barrels.swift; sourceTree = "<group>"; };
+		19E2028D1D0357250082E477 /* Bindetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bindetail.swift; sourceTree = "<group>"; };
+		19E2028E1D0357250082E477 /* Blend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blend.swift; sourceTree = "<group>"; };
+		19E2028F1D0357250082E477 /* Blenditems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blenditems.swift; sourceTree = "<group>"; };
+		19E202901D0357250082E477 /* Bol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bol.swift; sourceTree = "<group>"; };
+		19E202911D0357250082E477 /* Bolitembreakout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bolitembreakout.swift; sourceTree = "<group>"; };
+		19E202921D0357250082E477 /* Bolitems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bolitems.swift; sourceTree = "<group>"; };
+		19E202931D0357250082E477 /* Bottling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bottling.swift; sourceTree = "<group>"; };
+		19E202941D0357250082E477 /* Brixtemp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brixtemp.swift; sourceTree = "<group>"; };
+		19E202951D0357250082E477 /* Buffertitration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buffertitration.swift; sourceTree = "<group>"; };
+		19E202961D0357250082E477 /* CompanyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyInfo.swift; sourceTree = "<group>"; };
+		19E202971D0357250082E477 /* DevTokens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevTokens.swift; sourceTree = "<group>"; };
+		19E202981D0357250082E477 /* Fermprot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fermprot.swift; sourceTree = "<group>"; };
+		19E202991D0357250082E477 /* Files.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
+		19E2029A1D0357250082E477 /* Filllevels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filllevels.swift; sourceTree = "<group>"; };
+		19E2029B1D0357250082E477 /* Flags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
+		19E2029C1D0357250082E477 /* Fpaddmap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fpaddmap.swift; sourceTree = "<group>"; };
+		19E2029D1D0357250082E477 /* Groups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		19E2029E1D0357250082E477 /* Labresults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Labresults.swift; sourceTree = "<group>"; };
+		19E2029F1D0357250082E477 /* Labtest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Labtest.swift; sourceTree = "<group>"; };
+		19E202A01D0357250082E477 /* Labtestcosts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Labtestcosts.swift; sourceTree = "<group>"; };
+		19E202A11D0357250082E477 /* Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		19E202A21D0357250082E477 /* Lotfavorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lotfavorites.swift; sourceTree = "<group>"; };
+		19E202A31D0357250082E477 /* Lotlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lotlist.swift; sourceTree = "<group>"; };
+		19E202A41D0357250082E477 /* Lots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lots.swift; sourceTree = "<group>"; };
+		19E202A51D0357250082E477 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		19E202A61D0357250082E477 /* Newwos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Newwos.swift; sourceTree = "<group>"; };
+		19E202A71D0357250082E477 /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		19E202A81D0357250082E477 /* Orders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		19E202A91D0357250082E477 /* Packages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Packages.swift; sourceTree = "<group>"; };
+		19E202AA1D0357250082E477 /* Pressprogram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pressprogram.swift; sourceTree = "<group>"; };
+		19E202AB1D0357260082E477 /* PressRoomActivities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PressRoomActivities.swift; sourceTree = "<group>"; };
+		19E202AC1D0357260082E477 /* Program.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		19E202AD1D0357260082E477 /* PushDevices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushDevices.swift; sourceTree = "<group>"; };
+		19E202AE1D0357260082E477 /* Roles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roles.swift; sourceTree = "<group>"; };
+		19E202AF1D0357260082E477 /* Scp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scp.swift; sourceTree = "<group>"; };
+		19E202B01D0357260082E477 /* SortingTableActivities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortingTableActivities.swift; sourceTree = "<group>"; };
+		19E202B11D0357260082E477 /* Surveyanswers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Surveyanswers.swift; sourceTree = "<group>"; };
+		19E202B21D0357260082E477 /* Surveyquestions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Surveyquestions.swift; sourceTree = "<group>"; };
+		19E202B31D0357260082E477 /* Tasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		19E202B41D0357260082E477 /* Usermessagemap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usermessagemap.swift; sourceTree = "<group>"; };
+		19E202B51D0357260082E477 /* Validlabtests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validlabtests.swift; sourceTree = "<group>"; };
+		19E202B61D0357260082E477 /* Varietals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Varietals.swift; sourceTree = "<group>"; };
+		19E202B71D0357260082E477 /* Vessels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vessels.swift; sourceTree = "<group>"; };
+		19E202B81D0357260082E477 /* Wt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wt.swift; sourceTree = "<group>"; };
+		19E202B91D0357260082E477 /* Zones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zones.swift; sourceTree = "<group>"; };
+		1B7271A40E5456EFAC5C2F4A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		72BEFDCA9DC2E7C5853F1A8E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8061595B57E7BB4CFB34ED4C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201DBCCF4A33DA5FD1FEB773 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +155,8 @@
 			children = (
 				19E201F31D034D810082E477 /* CellarworxKit */,
 				19E201F21D034D810082E477 /* Products */,
+				3D3F22918D5C7D9067B0CD33 /* Pods */,
+				24D48BA6E42EDC6A5E466083 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +171,94 @@
 		19E201F31D034D810082E477 /* CellarworxKit */ = {
 			isa = PBXGroup;
 			children = (
-				19E201F41D034D810082E477 /* CellarworxKit.h */,
+				19E202F51D0357350082E477 /* Model */,
 				19E201F61D034D810082E477 /* Info.plist */,
+				19E202001D034EB40082E477 /* CellarworxKit-Bridging-Header.h */,
 			);
 			path = CellarworxKit;
+			sourceTree = "<group>";
+		};
+		19E202F51D0357350082E477 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19E2027F1D0357250082E477 /* User.swift */,
+				19E202801D0357250082E477 /* Client.swift */,
+				19E202811D0357250082E477 /* Client_Extensions.swift */,
+				19E202821D0357250082E477 /* Reservation.swift */,
+				19E202831D0357250082E477 /* Wo.swift */,
+				19E202841D0357250082E477 /* Actions.swift */,
+				19E202851D0357250082E477 /* Additiondata.swift */,
+				19E202861D0357250082E477 /* Additions.swift */,
+				19E202871D0357250082E477 /* Appellations.swift */,
+				19E202881D0357250082E477 /* Assets.swift */,
+				19E202891D0357250082E477 /* Assettypes.swift */,
+				19E2028A1D0357250082E477 /* Badges.swift */,
+				19E2028B1D0357250082E477 /* Barrelhistory.swift */,
+				19E2028C1D0357250082E477 /* Barrels.swift */,
+				19E2028D1D0357250082E477 /* Bindetail.swift */,
+				19E2028E1D0357250082E477 /* Blend.swift */,
+				19E2028F1D0357250082E477 /* Blenditems.swift */,
+				19E202901D0357250082E477 /* Bol.swift */,
+				19E202911D0357250082E477 /* Bolitembreakout.swift */,
+				19E202921D0357250082E477 /* Bolitems.swift */,
+				19E202931D0357250082E477 /* Bottling.swift */,
+				19E202941D0357250082E477 /* Brixtemp.swift */,
+				19E202951D0357250082E477 /* Buffertitration.swift */,
+				19E202961D0357250082E477 /* CompanyInfo.swift */,
+				19E202971D0357250082E477 /* DevTokens.swift */,
+				19E202981D0357250082E477 /* Fermprot.swift */,
+				19E202991D0357250082E477 /* Files.swift */,
+				19E2029A1D0357250082E477 /* Filllevels.swift */,
+				19E2029B1D0357250082E477 /* Flags.swift */,
+				19E2029C1D0357250082E477 /* Fpaddmap.swift */,
+				19E2029D1D0357250082E477 /* Groups.swift */,
+				19E2029E1D0357250082E477 /* Labresults.swift */,
+				19E2029F1D0357250082E477 /* Labtest.swift */,
+				19E202A01D0357250082E477 /* Labtestcosts.swift */,
+				19E202A11D0357250082E477 /* Locations.swift */,
+				19E202A21D0357250082E477 /* Lotfavorites.swift */,
+				19E202A31D0357250082E477 /* Lotlist.swift */,
+				19E202A41D0357250082E477 /* Lots.swift */,
+				19E202A51D0357250082E477 /* Messages.swift */,
+				19E202A61D0357250082E477 /* Newwos.swift */,
+				19E202A71D0357250082E477 /* Notes.swift */,
+				19E202A81D0357250082E477 /* Orders.swift */,
+				19E202A91D0357250082E477 /* Packages.swift */,
+				19E202AA1D0357250082E477 /* Pressprogram.swift */,
+				19E202AB1D0357260082E477 /* PressRoomActivities.swift */,
+				19E202AC1D0357260082E477 /* Program.swift */,
+				19E202AD1D0357260082E477 /* PushDevices.swift */,
+				19E202AE1D0357260082E477 /* Roles.swift */,
+				19E202AF1D0357260082E477 /* Scp.swift */,
+				19E202B01D0357260082E477 /* SortingTableActivities.swift */,
+				19E202B11D0357260082E477 /* Surveyanswers.swift */,
+				19E202B21D0357260082E477 /* Surveyquestions.swift */,
+				19E202B31D0357260082E477 /* Tasks.swift */,
+				19E202B41D0357260082E477 /* Usermessagemap.swift */,
+				19E202B51D0357260082E477 /* Validlabtests.swift */,
+				19E202B61D0357260082E477 /* Varietals.swift */,
+				19E202B71D0357260082E477 /* Vessels.swift */,
+				19E202B81D0357260082E477 /* Wt.swift */,
+				19E202B91D0357260082E477 /* Zones.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		24D48BA6E42EDC6A5E466083 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8061595B57E7BB4CFB34ED4C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D3F22918D5C7D9067B0CD33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B7271A40E5456EFAC5C2F4A /* Pods.debug.xcconfig */,
+				72BEFDCA9DC2E7C5853F1A8E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +268,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19E201F51D034D810082E477 /* CellarworxKit.h in Headers */,
+				19E202011D034EB40082E477 /* CellarworxKit-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,10 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19E201F91D034D810082E477 /* Build configuration list for PBXNativeTarget "CellarworxKit" */;
 			buildPhases = (
+				018E1E2F03647F6457737C6B /* Check Pods Manifest.lock */,
 				19E201EC1D034D810082E477 /* Sources */,
 				19E201ED1D034D810082E477 /* Frameworks */,
 				19E201EE1D034D810082E477 /* Headers */,
 				19E201EF1D034D810082E477 /* Resources */,
+				FBC38AB535B74C4B07D79F55 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,11 +336,103 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		018E1E2F03647F6457737C6B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBC38AB535B74C4B07D79F55 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		19E201EC1D034D810082E477 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E202BB1D0357260082E477 /* Client.swift in Sources */,
+				19E202D51D0357260082E477 /* Filllevels.swift in Sources */,
+				19E202E61D0357260082E477 /* PressRoomActivities.swift in Sources */,
+				19E202F21D0357260082E477 /* Vessels.swift in Sources */,
+				19E202CC1D0357260082E477 /* Bolitembreakout.swift in Sources */,
+				19E202EB1D0357260082E477 /* SortingTableActivities.swift in Sources */,
+				19E202DC1D0357260082E477 /* Locations.swift in Sources */,
+				19E202F01D0357260082E477 /* Validlabtests.swift in Sources */,
+				19E202EE1D0357260082E477 /* Tasks.swift in Sources */,
+				19E202EA1D0357260082E477 /* Scp.swift in Sources */,
+				19E202C11D0357260082E477 /* Additions.swift in Sources */,
+				19E202D21D0357260082E477 /* DevTokens.swift in Sources */,
+				19E202C81D0357260082E477 /* Bindetail.swift in Sources */,
+				19E202DE1D0357260082E477 /* Lotlist.swift in Sources */,
+				19E202DB1D0357260082E477 /* Labtestcosts.swift in Sources */,
+				19E202CA1D0357260082E477 /* Blenditems.swift in Sources */,
+				19E202E91D0357260082E477 /* Roles.swift in Sources */,
+				19E202D31D0357260082E477 /* Fermprot.swift in Sources */,
+				19E202BC1D0357260082E477 /* Client_Extensions.swift in Sources */,
+				19E202C21D0357260082E477 /* Appellations.swift in Sources */,
+				19E202ED1D0357260082E477 /* Surveyquestions.swift in Sources */,
+				19E202D81D0357260082E477 /* Groups.swift in Sources */,
+				19E202F11D0357260082E477 /* Varietals.swift in Sources */,
+				19E202D11D0357260082E477 /* CompanyInfo.swift in Sources */,
+				19E202D91D0357260082E477 /* Labresults.swift in Sources */,
+				19E202D01D0357260082E477 /* Buffertitration.swift in Sources */,
+				19E202EF1D0357260082E477 /* Usermessagemap.swift in Sources */,
+				19E202C01D0357260082E477 /* Additiondata.swift in Sources */,
+				19E202E11D0357260082E477 /* Newwos.swift in Sources */,
+				19E202E21D0357260082E477 /* Notes.swift in Sources */,
+				19E202E41D0357260082E477 /* Packages.swift in Sources */,
+				19E202BD1D0357260082E477 /* Reservation.swift in Sources */,
+				19E202E01D0357260082E477 /* Messages.swift in Sources */,
+				19E202EC1D0357260082E477 /* Surveyanswers.swift in Sources */,
+				19E202C41D0357260082E477 /* Assettypes.swift in Sources */,
+				19E202DD1D0357260082E477 /* Lotfavorites.swift in Sources */,
+				19E202E81D0357260082E477 /* PushDevices.swift in Sources */,
+				19E202CB1D0357260082E477 /* Bol.swift in Sources */,
+				19E202D71D0357260082E477 /* Fpaddmap.swift in Sources */,
+				19E202DF1D0357260082E477 /* Lots.swift in Sources */,
+				19E202C71D0357260082E477 /* Barrels.swift in Sources */,
+				19E202BF1D0357260082E477 /* Actions.swift in Sources */,
+				19E202F41D0357260082E477 /* Zones.swift in Sources */,
+				19E202E51D0357260082E477 /* Pressprogram.swift in Sources */,
+				19E202D61D0357260082E477 /* Flags.swift in Sources */,
+				19E202BE1D0357260082E477 /* Wo.swift in Sources */,
+				19E202CF1D0357260082E477 /* Brixtemp.swift in Sources */,
+				19E202C91D0357260082E477 /* Blend.swift in Sources */,
+				19E202E71D0357260082E477 /* Program.swift in Sources */,
+				19E202D41D0357260082E477 /* Files.swift in Sources */,
+				19E202C51D0357260082E477 /* Badges.swift in Sources */,
+				19E202F31D0357260082E477 /* Wt.swift in Sources */,
+				19E202CD1D0357260082E477 /* Bolitems.swift in Sources */,
+				19E202E31D0357260082E477 /* Orders.swift in Sources */,
+				19E202DA1D0357260082E477 /* Labtest.swift in Sources */,
+				19E202C31D0357260082E477 /* Assets.swift in Sources */,
+				19E202C61D0357260082E477 /* Barrelhistory.swift in Sources */,
+				19E202CE1D0357260082E477 /* Bottling.swift in Sources */,
+				19E202BA1D0357260082E477 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +532,9 @@
 		};
 		19E201FA1D034D810082E477 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7271A40E5456EFAC5C2F4A /* Pods.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -240,12 +545,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.theWCL.CellarworxKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CellarworxKit/CellarworxKit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		19E201FB1D034D810082E477 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72BEFDCA9DC2E7C5853F1A8E /* Pods.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -256,6 +565,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.theWCL.CellarworxKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CellarworxKit/CellarworxKit-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -278,6 +588,7 @@
 				19E201FB1D034D810082E477 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
